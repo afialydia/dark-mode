@@ -19,9 +19,8 @@ const useDarkMode = (key) => {
         setStoredValue(value);
         window.localStorage.setItem(key, JSON.stringify(value))
 
-    }
-
-    ​ return [value, setValue];
+    } 
+    return [value, setValue];
 }
 
 export default useDarkMode;

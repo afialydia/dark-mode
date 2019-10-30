@@ -35,6 +35,6 @@ const Chart = ({ sparklineData }) => {
       <Tooltip />
     </LineChart>
   );
-};
+}; 
 
 export default Chart;
